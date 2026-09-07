@@ -93,6 +93,7 @@ a {
 .page {
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 .page-title {
@@ -873,15 +874,79 @@ a {
   }
   .form-card,
   .modal-card {
-    padding: 28px 20px 32px;
+    padding: 24px 18px 28px;
   }
   .balance-stats,
   .summary-top-stats {
-    gap: 30px;
+    gap: 24px;
   }
   .navbar {
     flex-direction: column;
     gap: 14px;
     align-items: flex-start;
+    padding: 16px 20px 0;
+  }
+  .navbar-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .balance-card,
+  .summary-card,
+  .transactions-panel {
+    padding: 20px 18px 24px;
+  }
+
+  .balance-amount {
+    font-size: 32px;
+  }
+
+  .filters-row {
+    gap: 12px;
+  }
+
+  .filters-row .btn {
+    width: 100%;
+  }
+
+  .transaction-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .transaction-right {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .modal-back {
+    left: 20px;
+  }
+
+  .modal-card {
+    text-align: left;
+  }
+
+  .modal-amount {
+    font-size: 26px;
+  }
+
+  .breakdown-body {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .chart-container {
+    overflow-x: auto;
+  }
+
+  .chart-wrap {
+    gap: 12px;
   }
 }
