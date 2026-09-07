@@ -789,6 +789,7 @@ a {
 .chart-y-tick {
   position: absolute;
   right: 0;
+  left: 0;
   transform: translateY(50%);
 }
 
@@ -944,30 +945,30 @@ a {
 
   .chart-container {
     overflow-x: auto;
-  }
+  }  
 
   .chart-y-axis {
-  width: 46px;
-  font-size: 10px;
-}
+    width: 58px;
+    font-size: 9.5px;
+  }
 
-.chart-wrap {
-  gap: 6px;
-}
+  .chart-wrap {
+    gap: 6px;
+  }
 
-.chart-bars {
-  gap: 2px;
-}
+  .chart-bars {
+    gap: 2px;
+  }
 
-.chart-bar {
-  width: 8px;
-}
+  .chart-bar {
+    width: 8px;
+  }
 
-.chart-x-axis-row {
-  gap: 6px;
-}
+  .chart-x-axis-row {
+    gap: 6px;
+  }
 
-.chart-x-label {
-  font-size: 10px;
-}
-}
+  .chart-x-label {
+    font-size: 10px;
+  }
+  }
