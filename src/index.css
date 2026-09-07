@@ -946,7 +946,28 @@ a {
     overflow-x: auto;
   }
 
-  .chart-wrap {
-    gap: 12px;
-  }
+  .chart-y-axis {
+  width: 46px;
+  font-size: 10px;
+}
+
+.chart-wrap {
+  gap: 6px;
+}
+
+.chart-bars {
+  gap: 2px;
+}
+
+.chart-bar {
+  width: 8px;
+}
+
+.chart-x-axis-row {
+  gap: 6px;
+}
+
+.chart-x-label {
+  font-size: 10px;
+}
 }
